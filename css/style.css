@@ -1,7 +1,110 @@
+html,
 body {
 	font-size: 14px;
 	font-family: "PT Sans Regular", sans-serif;
 	color: black;
 	font-weight: normal;
 	line-height: 21px;
+/*   background: white url("../img/background.png") no-repeat;*/
+	background-size: 1122px auto;
 }
+
+.main-header {
+       min-height: 70px;
+       background-color: #81b3d2;
+}
+
+.container {
+    width: 768px;
+    margin: 0px auto;
+    background-color: #e1eff8;
+
+}
+
+
+.main-navigation {
+	float: left;
+	width: 600px;
+	background-color: #fcdddd;
+
+}
+.logo {
+	float: right;
+	width: 150px;
+	background-color: #fcdddd;
+}
+.welcome {
+	margin-right: auto;
+    margin-left: auto;
+	background-color: #f88ddd;
+}
+.reasons-headline {
+	text-align: center;
+	background-color: #81b3d2;
+}
+
+
+.reasons-item {
+	text-align: center;
+}
+.column1 {
+	float: left;
+	width: 253px;
+	height: 256px;
+	background-color: #81b3d2;
+}
+
+.column2 {
+	display: inline-block;
+	width: 250px;
+	vertical-align: top;
+	background-color: #fcdddd;
+
+}
+
+.pic2 {
+	float: left;
+
+}
+
+.column3 {
+	float: right;
+	width: 253px;
+	height: 253px;
+	background-color: #cbdda9;
+	
+
+}
+
+.column4 {
+	display: inline-block;
+	width: 250px;
+	height: 253px;
+	vertical-align: top;
+	background-color: #fcdddd;
+
+
+}
+.interested {
+	text-align: center;
+	background-color: #cbdda9;
+}
+.search {
+	text-align: center;
+	width: 568px;
+	height: 395px;
+	margin: 0px auto;
+	background-color: #cbdda9;
+}
+.head-search {
+	width: 568px;
+	height: 86px;
+	background-color: #cbd779;
+}
+.main-footer {
+	width: 768px;
+    margin: 0px auto;
+    background-color: #81b3d2;
+	
+}
+
