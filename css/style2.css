@@ -1,0 +1,73 @@
+html,
+body {
+	font-size: 14px;
+	font-family: "PT Sans Regular", sans-serif;
+	color: black;
+	font-weight: normal;
+	line-height: 21px;
+/*   background: white url("../img/background.png") no-repeat;*/
+	background-size: 1122px auto;
+}
+
+.main-header {
+       min-height: 70px;
+       background-color: #81b3d2;
+}
+
+.container {
+    width: 768px;
+    margin: 0px auto;
+    background-color: #e1eff8;
+
+}
+
+
+.main-navigation {
+	float: left;
+	width: 600px;
+	background-color: #fcdddd;
+
+}
+.logo {
+	float: right;
+	width: 150px;
+	background-color: #fcdddd;
+}
+
+.filter {
+	background-color: #fc67dd;
+}
+
+.column {
+	display: inline-block;
+	width: 250px;
+	vertical-align: top;
+}
+
+.search-result {
+	display: inline-block;
+	width: 768px;
+	background-color: #fc679d;
+}
+
+.hotels {
+	background-color: white;
+}
+
+.hotel-1 {
+	float: left;
+}
+
+
+
+.main-footer {
+	width: 768px;
+    margin: 0px auto;
+    background-color: #81b3d2;
+	
+}
+.stars {
+	float: right;
+
+}
+
