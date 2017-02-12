@@ -1,65 +1,121 @@
-html,
+
 body {
-	font-size: 14px;
-	font-family: "PT Sans Regular", sans-serif;
+	min-width: 960px;
+	padding: 0;
+	margin: 0;
+	background-color: #ffffff;
+
+}	
+
+body, input {
+	font-family: "PT Sans", sans-serif;
+	ft-size: 14px;
+	line-height: 21px;
+	text-transform: uppercase;
+	border: 0;
 	color: black;
 	font-weight: normal;
-	line-height: 21px;
-/*   background: white url("../img/background.png") no-repeat;*/
-	background-size: 1122px auto;
 }
 
 .main-header {
-       min-height: 70px;
-       background-color: #81b3d2;
+    min-height: 70px;
+    margin-bottom: -18px;
 }
 
 .container {
     width: 768px;
     margin: 0px auto;
-    background-color: #e1eff8;
-
+   
+}
+.main-navigation ul {
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+}
+.main-navigation li {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	font-weight: bold;
+    line-height: 26px;
+    vertical-align: top;
 }
 
-
-.main-navigation {
-	float: left;
-	width: 600px;
-	background-color: #fcdddd;
-
+.main-navigation a {
+	display: block;
+	padding: 18px 20px;
+	color: #000000;
+	text-decoration: none;
 }
+
 .logo {
-	float: right;
-	width: 150px;
-	background-color: #fcdddd;
+		margin: 0 -40px;
 }
+
 .welcome {
-	margin-right: auto;
-    margin-left: auto;
-	background-color: #f88ddd;
+	height: 515px;
+    background: white url("../img/white1.jpg") no-repeat center top;
+}
+.welcome img {
+	margin: 0 auto;
+    display: block;
+    top: 80px;
+    position: relative;
 }
 .reasons-headline {
 	text-align: center;
-	background-color: #81b3d2;
+	margin-top: 60px;
+	margin-bottom: 55px;
+	line-height: 26px;
 }
 
 
-.reasons-item {
+.reasons-item {	
 	text-align: center;
+	color: white;
 }
+
+.reasons-item-2 {
+	text-align: center;
+	color: black;
+
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+}
+
+.flex-row.h256 {
+	height: 256px;
+}
+
+.flex-row.h330 {
+	height: 330px;
+}
+
+/* Колонки */
+.flex-row > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 .column1 {
-	float: left;
-	width: 253px;
 	height: 256px;
 	background-color: #81b3d2;
+	box-sizing: border-box;
+    padding: 40px;
 }
 
 .column2 {
-	display: inline-block;
-	width: 250px;
-	vertical-align: top;
-	background-color: #fcdddd;
-
+	padding: 30px;
+	background-color: #81b3d2;
 }
 
 .pic2 {
@@ -78,33 +134,133 @@ body {
 
 .column4 {
 	display: inline-block;
-	width: 250px;
+	padding: 40px 30px;
+	justify-content: flex-start;
 	height: 253px;
 	vertical-align: top;
-	background-color: #fcdddd;
+	background-color: #eeeeee;
+	box-sizing: border-box;
 
 
 }
 .interested {
+	display: flex;
+    flex-direction: column;
 	text-align: center;
-	background-color: #cbdda9;
+	padding: 50px 0;
+	padding-bottom: 140px;
 }
 .search {
 	text-align: center;
 	width: 568px;
-	height: 395px;
 	margin: 0px auto;
-	background-color: #cbdda9;
+	background-color: white;
+	margin-top: -96px;
+    margin-bottom: 96px;
 }
 .head-search {
 	width: 568px;
-	height: 86px;
-	background-color: #cbd779;
+    background-color: #766357;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    color: #ffffff;
+}
+.map {
+	display: flex;
+	background: url("../img/map.jpg");
 }
 .main-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	width: 768px;
     margin: 0px auto;
-    background-color: #81b3d2;
+    background-color: white;
 	
 }
+
+.footer-copyright {
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-social {
+	display: flex;
+	margin: 35px;
+}
+
+.visit {
+	text-decoration:  none;
+	font-size: 21px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.appointment-form {
+	width: 460px;
+	margin: 0 auto;
+	padding: 55px;
+}
+
+.form-group {
+	display: table;
+	width: 100%;
+}
+
+.form-row {
+	display: table-cell;
+	position: relative;
+	font-weight: bold;
+	text-align: left;
+}
+
+.form-group input {
+	width: 340px;
+}
+
+.col-2 {
+	width: 50%;
+	float: left;
+}
+.col-2 input {
+	width: 10px;
+    height: 10px;
+    line-height: 0px;
+}
+.calendar {
+	padding: 8px;
+}
+
+.input-icon {
+	position: absolute;
+	top: 4px;
+	right: 4px;
+}
+.btn-find {
+	padding: 18px;
+	width: 100%;
+	font-weight: bold;
+	font-size: 21px;
+	background-color: #81b3d2;
+	color: white;
+
+}
+.btn {
+	border: 0;
+	padding: 10px;
+    margin: 2px;
+    margin-bottom: 30px;
+	background-color: #f2f2f2;
+}
+.btn-2 {
+	border: 0;
+    padding: 0;
+	
+}
+.social-btn {
+	    margin-right: 6px;
+}
+
 
