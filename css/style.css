@@ -69,6 +69,12 @@ body, input {
 .main-navigation a.menu-hotels {
 	    color: #766357;
 }
+.condition:hover {
+	color: #81b3d2;
+}
+.condition:active {
+	color: rgba(0, 0, 0, 0.3);
+}
 /*all header end*/
 
 
@@ -326,7 +332,7 @@ body, input {
     line-height: 0;
 }
 .btn-position-adults {
-	margin-left: 21px;
+	margin-left: 20px;
 	text-align: center;
 }
 .btn-position-child {
@@ -441,9 +447,18 @@ body, input {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.3);
 }
+.filter-static:hover {
+	color: #81b3d2;
+}
+.filter-static:active {
+	color: #000000;
+	border-bottom: none;
+}
 
 .filter-active {
 	color: #81b3d2;
+	border-bottom: none;
+
 }
 
 .filter-type {
@@ -685,26 +700,9 @@ body, input {
 	border-bottom: 1px solid #e5e5e5;
 }
 
-/*.hotel .details-text-row {
-	display: flex;
-	margin: 15px 0px;*/
-	
-}
-/*.details-text-row {
-	font-size: 14px;
-	color: #333333;
-*/
-}
-
-
-
 .details-text-price-3 {
 	padding-left: 60px;
 }
-
-/*.details-text-price-2 {
-	padding-left: 15px;
-}*/
 
 .hotel-rating {
 	    padding-left: 110px;
