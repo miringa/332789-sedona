@@ -365,7 +365,7 @@ body, input {
 	height: 38px;
 	top: 2px;
 	right: 94px;
-	background-image: url(../img/_.png);
+	background-image: url(../img/mines.png);
 	background-repeat: no-repeat; 
 	background-position: center; 
 	background-color: #f2f2f2;
@@ -392,7 +392,7 @@ body, input {
 	height: 38px;
 	top: 2px;
 	right: 76px;
-	background-image: url(../img/_.png);
+	background-image: url(../img/mines.png);
 	background-repeat: no-repeat; 
 	background-position: center; 
 	background-color: #f2f2f2;
