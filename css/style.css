@@ -263,8 +263,6 @@ body, input {
 }
 
 
-}
-
 .form-group {
 	display: table;
 	width: 100%;
@@ -307,6 +305,14 @@ body, input {
 	background-image: url(../img/calendar_icon.png);
 	background-color: transparent;
 }
+.input-icon:hover {
+	background-image: url(../img/calendar_icon_hover.png);
+}
+
+.input-icon:active {
+	background-image: url(../img/calendar_icon_active.png);
+}
+
 .btn-find {
 	padding: 18px;
 	width: 100%;
@@ -314,6 +320,14 @@ body, input {
 	font-size: 21px;
 	background-color: #81b3d2;
 	color: white;
+
+}
+.btn-find:hover {
+	background-color: #669ec0;
+}
+.btn-find:active {
+	background-color: #5496bd;
+	color: rgba(255, 255, 255, 0.3);
 
 }
 .form-row-child {
@@ -325,6 +339,9 @@ body, input {
     margin: 2px;
     margin-bottom: 30px;
 	background-color: #f2f2f2;
+}
+.btn:hover {
+	background-color: #ebebeb;
 }
 .btn-2 {
 	border: 0;
@@ -359,7 +376,7 @@ body, input {
 	width:38px;
 	height: 38px;
 	top: 2px;
-	right: 18px;
+	right: 20px;
 	background-image: url(../img/+.png);
 	background-repeat: no-repeat; 
 	background-position: center; 
@@ -392,6 +409,7 @@ body, input {
 	background-position: center; 
 	background-color: #f2f2f2;
  }
+
 /*form block end*/
 /*index page end*/
 
@@ -656,6 +674,14 @@ body, input {
 	border-width: 10px 6px 0;
 	transform: rotate(180deg);
 }
+.arrow-up:hover,
+.arrow-down:hover {
+     border-color: #000000 transparent transparent;
+}
+.arrow-up:active,
+.arrow-down:active {
+	border-color: #81b3d2 transparent transparent;
+}
 
 /*sort block end*/
 
@@ -730,6 +756,12 @@ body, input {
 	margin-bottom: 10px;
 	margin-top: 0;
 }
+.hotel-title:hover {
+	color: #81b3d2;
+}
+.hotel-title:active {
+	color: rgba(0, 0, 0, 0.3);
+}
 
 .more, 
 .book {
@@ -743,10 +775,24 @@ font-weight: bold;
 	font-size: 14px;
 	background-color: #81b3d2;
 }
+.more:hover {
+	background-color: #669ec0;
+}
+.more:active {
+	background-color: #5496bd;
+	color: rgba(255, 255, 255, 0.3);
+}
 
 .book {
 	font-size: 14px;
 	background-color: #766357;
+}
+.book:hover {
+	background-color: #604e43;
+}
+.book:active {
+	background-color: #503e33;
+	color: rgba(255, 255, 255, 0.3);
 }
 
 .rating {
