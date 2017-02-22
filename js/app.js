@@ -1,5 +1,5 @@
-let searchStartBnt = document.body.querySelector('.head-search');
-let searchForm = document.getElementById('search-form');
+var searchStartBnt = document.body.querySelector('.head-search');
+var searchForm = document.getElementById('search-form');
 
 searchStartBnt.addEventListener('click', function() {
 	searchForm.classList.toggle('hidden');
