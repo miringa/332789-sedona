@@ -57,8 +57,7 @@ body, input {
 }
 
 .main-navigation li {
-	/*display: inline-block;
-	vertical-align: top;*/
+
 	display: flex;
 	width: auto;
 	padding: 14px 22px;
@@ -74,6 +73,7 @@ body, input {
 
 .main-navigation li:nth-of-type(3) {
 	margin-left: 60px;
+	padding-right: 40px; 
 }
 
 .condition {
@@ -198,9 +198,19 @@ body, input {
 	width: 34%;
 	background-color: #81b3d2;
 	box-sizing: border-box;
-	padding: 30px;
-	padding-top: 20px;
+	padding: 26px;
+	padding-top: 21px;
 }
+.padding2 {
+	padding-top: 8px;
+}
+ .padding3 {
+ 	padding-top: 9px;
+ } 
+
+ .margin2 {
+ 	margin-top: 17px;
+ }
 
 .reasons-block {
 	width: 33%;
@@ -215,17 +225,35 @@ body, input {
 	padding-bottom: 34px;
 	background-color: #eeeeee;
 
-}
+} 
 
+.padding4{
+	padding-top: 6px;
+}
+ 
+.margin3 {
+	margin-top: 20px;
+    margin-bottom: 7px;
+}
 .column2 {
-	padding: 30px;
+	padding: 24px;
 	background-color: #81b3d2;
 } 
 
 .pic2 {
 	float: left;
 }
-
+.padding {
+	    padding-top: 23px;
+	    padding-left: 48px;
+}
+.num {
+	margin-top: 7px;
+}
+.margin {
+	margin-bottom: 5px;
+    margin-top: 21px;
+}
 /*reasons block end*/
 
 
@@ -235,9 +263,12 @@ body, input {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	padding: 40px 0;
+	padding: 36px 0;
 	padding-bottom: 118px;
 	
+}
+.margin4 {
+        margin-top: 15px;
 }
 
 .interested-title{
@@ -312,6 +343,7 @@ body, input {
 	font-size: 21px;
 	font-weight: bold;
 	color: #000000;
+	padding-left: 29px;
 }
 
 .form-group {
@@ -356,16 +388,17 @@ body, input {
 	height: 22px;
 	top: 11px;
 	right: 18px;
-	background-image: url(../img/calendar_icon.png);
+	background-image: url(../img/form-calendar-sprite.png);
+	background-position-y: 0;
 	background-color: transparent;
 }
 
 .input-icon:hover {
-	background-image: url(../img/calendar_icon_hover.png);
+	background-position-y: -22px;
 }
 
 .input-icon:active {
-	background-image: url(../img/calendar_icon_active.png);
+	background-position-y: -44px;
 }
 
 .btn-find {
@@ -500,6 +533,13 @@ body, input {
     background-image: url(../img/+active.png); 
 }
 
+.margin5 {
+	margin-top: -6px;
+    margin-bottom: -7px;
+} 
+.margin6 {
+	margin-top: 20px;
+}
 /*form block end*/
 /*index page end*/
 
@@ -533,7 +573,8 @@ body, input {
 	width: 26px;
 	height: 22px;
 	display: inline-block;
-	background-image: url(../img/empty.png);
+	background-image: url(../img/form-checkbox-sprite.png);
+	background-position-y: -22px;
 	background-repeat: no-repeat;
 	position: relative;
 	top: 5px;
@@ -542,15 +583,15 @@ body, input {
 }
 
 .checkbox:checked + .checkbox-text::before {
-	background-image: url(../img/done.png);
+	background-position-y: 0;
 }
 
 .column {
 	display: flex;
 	flex-direction: column;
 	padding-left: 46px;
-	padding-bottom: 10px;
-	padding-top: 10px
+	padding-bottom: 19px;
+	padding-top: 16px
 }
 
 .filter-static {
@@ -574,7 +615,7 @@ body, input {
 }
 
 .filter-type {
-	padding-left: 102px;
+	padding-left: 104px;
 }
 
 .form-search {
@@ -598,10 +639,12 @@ body, input {
 
 .price-controls {
 	position: relative;
-	height: 36px;
+	height: 34px;
 	margin-bottom: 20px;
 	border: 2px solid #ffffff;
 	border-radius: 2px;
+	margin-bottom: 19px;
+    margin-top: -4px;
 }
 
 .price-controls::after {
@@ -713,7 +756,8 @@ body, input {
 }
 
 .sort-title {
-	margin-right: 20px;
+    margin-right: 20px;
+    margin-left: -45px;
 }
 
 .sort {
@@ -740,6 +784,8 @@ body, input {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	margin-right: -5px;
+    margin-left: 6px;
 }
 
 .search-arrows li {
@@ -805,7 +851,7 @@ body, input {
 
 .hotel-details {
 	padding-bottom: 6px;
-	padding-left: 30px;
+	padding-left: 27px;
 	width: 280px;
 }
 
@@ -816,7 +862,7 @@ body, input {
 	justify-content: space-between;
 	border-top: 1px solid #e5e5e5;
 	align-items: stretch;
-	padding: 30px 46px;
+	padding: 26px 46px;
 }
 
 .hotel-border {
@@ -914,7 +960,7 @@ body, input {
 	width: 768px;
 	margin: 0px auto;
 	background-color: rgba(255, 255, 255, 0.9);
-	padding: 0 46px;
+	padding: 3px 30px;
 	box-sizing: border-box
 	
 }
@@ -927,7 +973,7 @@ body, input {
 	width: 768px;
 	margin: -118px auto;
 	background-color: rgba(255, 255, 255, 0.9);
-	padding: 0 46px;
+	padding: 4px 30px;
 	box-sizing: border-box;
 	z-index: 5;
 	
@@ -941,33 +987,32 @@ body, input {
 .footer-social {
 	display: flex;
 	margin: 35px;
+	margin-left: 71px;
 }
 .social-btn {
 	margin-right: 6px;
+	background-image: url(../img/social-sprite.png);
 }
 
 .social-btn-t {
-	background-image: url("../img/t.png");
 	background-color: #81b3d2;
-	background-position: center;
+	background-position-x: 0;
 	background-repeat: no-repeat;
 	width: 46px;
 	height: 48px;
 }
 
 .social-btn-fb {
-	background-image: url("../img/f.png");
 	background-color: #81b3d2;
-	background-position: center;
+	background-position-x: -46px;
 	background-repeat: no-repeat;
 	width: 46px;
 	height: 48px;
 }
 
 .social-btn-y {
-	background-image: url("../img/y.png");
 	background-color: #81b3d2;
-	background-position: center;
+	background-position-x: -92px;
 	background-repeat: no-repeat;
 	width: 46px;
 	height: 48px;
@@ -988,19 +1033,20 @@ body, input {
 }
 
 .social-btn-ha {
-	background-image: url("../img/ha.png");
-	background-position: center;
+	background-image: url("../img/footer-logo-sprite.png");
+	background-position-y: 0;
 	background-repeat: no-repeat;
 	width: 113px;
 	height: 39px;
+	margin-left: 4px;
 }
 
 .social-btn-ha:hover {
-	background-image: url("../img/ha-hover.png");
+	background-position-y: -39px;
 }
 
 .social-btn-ha:active {
-	background-image: url("../img/ha_active.png");
+	background-position-y: -78px;
 }
 
 /* SPRITES */
